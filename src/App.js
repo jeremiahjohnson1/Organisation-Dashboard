@@ -7,8 +7,8 @@
  import Team from "./scenes/team";
  import CONTACTS from "./scenes/contacts";
  import Invoices from "./scenes/invoice";
+ import Form from "./scenes/form";
 //  import BAR from "./scenes/bar";
-//  import FORM from "./scenes/line";
 //  import LINE from "./scenes/line";
 //  import PIE from "./scenes/pie"; 
 //  import FAQ from "./scenes/faq";
@@ -30,11 +30,11 @@
                       <Route path="/" element={<Dashboard/>}/> 
                       <Route path="/team/" element={<Team/>}/>
                       <Route path="/contacts" element={<CONTACTS/>}/> 
-                      <Route path="/invoices" element={<Invoices/>}/> 
+                      <Route path="/invoices" element={<Invoices/>}/>
+                      <Route path="/form" element={<Form/>}/> 
                      {/*
                      <Route path="/contacts" element={<CONTACTS/>}/> 
                      <Route path="/bar" element={<BAR/>}/>
-                     <Route path="/form" element={<FORM/>}/>
                      <Route path="/line" element={<LINE/>}/> 
                      <Route path="/pie" element={<PIE/>}/> 
                      <Route path="/faq" element={<FAQ/>}/>
