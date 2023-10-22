@@ -8,12 +8,14 @@
  import CONTACTS from "./scenes/contacts";
  import Invoices from "./scenes/invoice";
  import Form from "./scenes/form";
-//  import BAR from "./scenes/bar";
-//  import LINE from "./scenes/line";
-//  import PIE from "./scenes/pie"; 
-//  import FAQ from "./scenes/faq";
-//  import GEOGRAPHY from "./scenes/geography";
-//  import CALENDER from "./scenes/calender";
+ import Calendar from "./scenes/calendar";
+ import FAQ from "./scenes/faq";
+ import Bar from "./scenes/bar";
+ import Pie from "./scenes/pie";
+ import Line from "./scenes/line"; 
+ import Geography from "./scenes/geography";
+
+
  
  
  function App() {
@@ -32,14 +34,12 @@
                       <Route path="/contacts" element={<CONTACTS/>}/> 
                       <Route path="/invoices" element={<Invoices/>}/>
                       <Route path="/form" element={<Form/>}/> 
-                     {/*
-                     <Route path="/contacts" element={<CONTACTS/>}/> 
-                     <Route path="/bar" element={<BAR/>}/>
-                     <Route path="/line" element={<LINE/>}/> 
-                     <Route path="/pie" element={<PIE/>}/> 
-                     <Route path="/faq" element={<FAQ/>}/>
-                     <Route path="/geography" element={<GEOGRAPHY/>}/>
-                     <Route path="/calender" element={<CALENDER/>}/>  */}
+                      <Route path="/calendar" element={<Calendar/>}/>
+                      <Route path="/faq" element={<FAQ/>}/>
+                      <Route path="/bar" element={<Bar/>}/>
+                      <Route path="/pie" element={<Pie/>}/> 
+                      <Route path="/line" element={<Line/>}/> 
+                      <Route path="/geography" element={<Geography/>}/>
                   </Routes>
                </main>
             </div>
